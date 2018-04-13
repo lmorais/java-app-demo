@@ -1,0 +1,2 @@
+#!/bin/sh
+docker run --rm -it -p 8080:8080 -e CONSUL_SERVER="<IP-CONSUL_SERVER>"-e VAULT_SERVER="<IP-VAULT-SERVER>" -e DB_SERVER="<IP-DATABASE-SERVER>" -e DB_NAME="<DATABASE-NAME>" java-app-demo

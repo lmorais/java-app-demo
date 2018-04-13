@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: java-app-demo
+  datasource:
+    url: jdbc:mysql://${DB_SERVER:localhost}:${DB_PORT:3306}/${DB_NAME}
+  cloud:
+    consul:
+      enabled: true
+      host: ${CONSUL_SERVER:localhost}
+      port: ${CONSUL_PORT:8500}
+      config:
+        watch:
+          enabled: true
+    vault:
+      host: ${VAULT_SERVER:localhost}
+      port: ${VAULT_PORT:8200}
+      uri: http://${VAULT_SERVER}:${VAULT_PORT:8200}
+      token: 5342cc47-9011-1530-1038-3ee5d02fe941
+      scheme: http
+      generic:
+        enabled: false
+      mysql:
+        enabled: true
+        role: admin
