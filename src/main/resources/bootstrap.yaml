@@ -15,7 +15,7 @@ spring:
       host: ${VAULT_SERVER:localhost}
       port: ${VAULT_PORT:8200}
       uri: http://${VAULT_SERVER}:${VAULT_PORT:8200}
-      token: 5342cc47-9011-1530-1038-3ee5d02fe941
+      token: 3b9ece5f-a6b6-4c86-1f11-f40e9468960f
       scheme: http
       generic:
         enabled: false

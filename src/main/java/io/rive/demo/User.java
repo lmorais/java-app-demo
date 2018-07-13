@@ -1,4 +1,4 @@
-package io.accesstage.demo;
+package io.rive.demo;
 
 import javax.persistence.Id;
 import javax.persistence.Entity;

@@ -1,4 +1,4 @@
-package io.accesstage.demo;
+package io.rive.demo;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
